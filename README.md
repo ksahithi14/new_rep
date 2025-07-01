@@ -1,4 +1,4 @@
-# Git Basics:
+ Git Basics:
 sudo apt install git  
 git --version  
 mkdir project  
@@ -25,7 +25,8 @@ git merge test_branch
 markdown
 Copy
 Edit
-# Docker Basics:
+
+ Docker Basics:
 docker --version  
 sudo docker images  
 sudo docker pull hello-world  
@@ -36,7 +37,8 @@ sudo docker stop container_id
 markdown
 Copy
 Edit
-# Flask App with Docker:
+
+Flask App with Docker:
 nano app.py  
 <pre><code>from flask import Flask, render_template, request app = Flask(__name__) @app.route("/") def home_page(name=None): return render_template("index.html", name=name) if __name__ == '__main__': app.run(host='0.0.0.0', port=5000) </code></pre>
 bash
@@ -59,7 +61,8 @@ docker logout
 markdown
 Copy
 Edit
-# Jenkins:
+
+Jenkins:
 sudo systemctl start jenkins  
 sudo systemctl status jenkins  
 Go to: https://localhost:8080
